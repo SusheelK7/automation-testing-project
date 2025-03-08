@@ -1,8 +1,12 @@
 {
+  "homepage": "https://SusheelK7.github.io/playwright-automation-testing-project",
   "name": "sdet-level-i",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
