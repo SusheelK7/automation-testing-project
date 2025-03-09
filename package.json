@@ -6,7 +6,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "build": "your-build-command-here"
+    "build": "npm run deploy"
   },
   "keywords": [],
   "author": "",
